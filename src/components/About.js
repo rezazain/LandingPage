@@ -14,10 +14,9 @@ function About() {
             </div>
             <div className="Text-About">
               <p>
-                Bagaimana kabarmu hari ini? Perkenalkan Nama saya adalah
-                Fadillah Reza. Kalian bisa memanggilku Reza. saya berasal dari
-                kota dan saya tinggal di asrama sekolah untuk saat ini. saya
-                lahir pada tanggal 17 Agustus 2001.
+                Bagaimana kabarmu hari ini? Perkenalkan Nama saya Fadillah Reza
+                Zulkarnaen Zain. Kalian bisa memanggilku Reza. saya berasal dari
+                kota Bandung, saya lahir pada tanggal 21 Maret 2001.
                 <br></br>
                 <br></br>
                 Jadi saya berusia 21 tahun saat ini. saya lulus dari sekolah

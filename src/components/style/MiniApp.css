@@ -120,3 +120,8 @@ h2 {
   border: 1px solid;
   position: relative;
 }
+.Wrapper-MiniApp a {
+  color: white;
+  border: 1px solid;
+  border-radius: 20px;
+}
