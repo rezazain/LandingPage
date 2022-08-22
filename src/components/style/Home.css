@@ -1,0 +1,95 @@
+.Wrap-Home {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 60%;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 5%;
+}
+.Wrap-Title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.Title-Home {
+  font-size: 3rem;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+.Error {
+  font-family: "Inconsolata", monospace;
+  font-size: 1.5rem;
+}
+.Text {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.3rem;
+}
+.Minion {
+  width: 55%;
+  margin: 0 auto;
+  margin-top: -80px;
+}
+button {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.3rem;
+  background-color: black;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.Button {
+  text-decoration: none;
+  color: white;
+}
+.link {
+  color: wheat;
+}
+/* Reponsive */
+@media screen and (max-width: 841px) {
+  .Wrap-Home {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 5%;
+  }
+  .Wrap-Title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Wrap-Home {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 5%;
+    flex-direction: column-reverse;
+  }
+  .Wrap-Title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .Minion {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: -40px;
+  }
+}

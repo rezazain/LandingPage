@@ -1,0 +1,59 @@
+.About {
+  width: 100%;
+}
+.Wrap-About {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 5%;
+  padding: 20px;
+}
+.About-Title {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+}
+.About-Title h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.About-Title-Line h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+}
+.Text-About {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.About-Image {
+  width: 60%;
+}
+.About-Image img {
+  border-radius: 20px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .Wrap-About {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 20px;
+    flex-direction: column-reverse;
+  }
+  .About-Title {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 50px;
+  }
+}
